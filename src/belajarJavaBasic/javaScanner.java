@@ -1,3 +1,5 @@
+package belajarJavaBasic;
+
 import java.util.Scanner;
 
 public class javaScanner {

@@ -1,3 +1,5 @@
+package belajarJavaBasic;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -8,6 +10,7 @@ public class javaBufferedReader {
         BufferedReader bufferedReader = new BufferedReader(isr);
         int value1 = 0;
         int value2 = 0;
+        String nama = "jamal";
         System.out.println("Program sederhana menghitung");
         try {
             System.out.println("Masukkan Angka Pertama: ");
@@ -18,6 +21,6 @@ public class javaBufferedReader {
             e.printStackTrace();
         }
         int hasil = value1 + value2;
-        System.out.println("Hasilnya: " + hasil);
+        System.out.println("Hasilnya: " + hasil + nama);
     }
 }
